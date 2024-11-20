@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bread",
+      "imageSrc": "./images/bread.png",
+      "price": 1
+    },
+    {
+      "id": 2,
+      "name": "Burrito",
+      "imageSrc": "./images/burrito.png",
+      "price": 2
+    },
+    {
+      "id": 3,
+      "name": "Cherries",
+      "imageSrc": "./images/cherries.png",
+      "price": 5
+    },
+    {
+      "id": 4,
+      "name": "Cookie",
+      "imageSrc": "./images/cookie.png",
+      "price": 5.5
+    },
+    {
+      "id": 5,
+      "name": "Grapes",
+      "imageSrc": "./images/grapes.png",
+      "price": 2
+    },
+    {
+      "id": 6,
+      "name": "Ice Cream",
+      "imageSrc": "./images/icecream.png",
+      "price": 4.2
+    },
+    {
+      "id": 7,
+      "name": "Pizza",
+      "imageSrc": "./images/pizza.png",
+      "price": 12
+    },
+    {
+      "id": 8,
+      "name": "Ramen",
+      "imageSrc": "./images/ramen.png",
+      "price": 3.33
+    }
+  ]
+}
