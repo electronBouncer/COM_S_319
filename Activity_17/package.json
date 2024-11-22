@@ -1,0 +1,20 @@
+{
+  "name": "activity17",
+  "version": "1.0.0",
+  "description": "Activity 17",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "express"
+  ],
+  "author": "Anthony Phan asianp12",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
