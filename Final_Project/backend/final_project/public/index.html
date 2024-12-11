@@ -44,12 +44,10 @@
             Welcome to Cynance and Budgets!
         </div>
         <header class="d-flex align-items-center my-4 header-box">
-            <img src="images/bank.png" alt="Bank" class="me-3" style="width: 150px; height: 150px;">
             <div>
                 <h1>Cynance and Budgets</h1>
                 <p>Track your income, expenses, and savings goals efficiently.</p>
             </div>
-            <img src="images/income.png" alt="Income Image" class="income-image">
         </header>
 
         <nav class="mb-4">
@@ -65,6 +63,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-danger" onclick="signOut()">Sign Out</button>
                 </li>
             </ul>
         </nav>
@@ -133,6 +134,11 @@
     </footer>
 
     <script>
+        function signOut() {
+            // Perform any sign-out logic here (e.g., clearing session storage)
+            window.location.href = 'login.html';
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             const totalIncomeElement = document.getElementById('totalIncome');
             const totalExpensesElement = document.getElementById('totalExpenses');
