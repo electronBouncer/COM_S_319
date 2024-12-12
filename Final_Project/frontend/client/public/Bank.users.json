@@ -1,0 +1,450 @@
+[{
+  "_id": {
+    "$oid": "673d2afd1712ef204800c9c3"
+  },
+  "userId": "1",
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "+1234567890",
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "Anystate",
+    "zip": "12345"
+  },
+  "accounts": [
+    {
+      "accountId": "1001",
+      "accountType": "Checking",
+      "balance": 1500.75,
+      "currency": "USD"
+    },
+    {
+      "accountId": "1002",
+      "accountType": "Savings",
+      "balance": 5000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T1001",
+      "date": "2023-10-01",
+      "amount": -50,
+      "description": "Grocery Store",
+      "accountId": "1001"
+    },
+    {
+      "transactionId": "T1002",
+      "date": "2023-10-02",
+      "amount": 2000,
+      "description": "Salary",
+      "accountId": "1001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2b501712ef204800c9c5"
+  },
+  "userId": "2",
+  "name": "Jane Smith",
+  "email": "jane.smith@example.com",
+  "phone": "+1234567891",
+  "address": {
+    "street": "456 Elm St",
+    "city": "Othertown",
+    "state": "Otherstate",
+    "zip": "54321"
+  },
+  "accounts": [
+    {
+      "accountId": "2001",
+      "accountType": "Checking",
+      "balance": 2500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "2002",
+      "accountType": "Savings",
+      "balance": 3000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T2001",
+      "date": "2023-10-03",
+      "amount": -100,
+      "description": "Restaurant",
+      "accountId": "2001"
+    },
+    {
+      "transactionId": "T2002",
+      "date": "2023-10-04",
+      "amount": 1500,
+      "description": "Freelance Work",
+      "accountId": "2001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2b811712ef204800c9c7"
+  },
+  "userId": "3",
+  "name": "Alice Johnson",
+  "email": "alice.johnson@example.com",
+  "phone": "+1234567892",
+  "address": {
+    "street": "789 Oak St",
+    "city": "Sometown",
+    "state": "Somestate",
+    "zip": "67890"
+  },
+  "accounts": [
+    {
+      "accountId": "3001",
+      "accountType": "Checking",
+      "balance": 3500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "3002",
+      "accountType": "Savings",
+      "balance": 4000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T3001",
+      "date": "2023-10-05",
+      "amount": -200,
+      "description": "Electronics",
+      "accountId": "3001"
+    },
+    {
+      "transactionId": "T3002",
+      "date": "2023-10-06",
+      "amount": 2500,
+      "description": "Consulting",
+      "accountId": "3001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2b891712ef204800c9c9"
+  },
+  "userId": "4",
+  "name": "Bob Brown",
+  "email": "bob.brown@example.com",
+  "phone": "+1234567893",
+  "address": {
+    "street": "101 Pine St",
+    "city": "Anycity",
+    "state": "Anystate",
+    "zip": "11223"
+  },
+  "accounts": [
+    {
+      "accountId": "4001",
+      "accountType": "Checking",
+      "balance": 4500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "4002",
+      "accountType": "Savings",
+      "balance": 6000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T4001",
+      "date": "2023-10-07",
+      "amount": -300,
+      "description": "Clothing",
+      "accountId": "4001"
+    },
+    {
+      "transactionId": "T4002",
+      "date": "2023-10-08",
+      "amount": 3500,
+      "description": "Bonus",
+      "accountId": "4001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2b951712ef204800c9cb"
+  },
+  "userId": "5",
+  "name": "Charlie Davis",
+  "email": "charlie.davis@example.com",
+  "phone": "+1234567894",
+  "address": {
+    "street": "202 Maple St",
+    "city": "Newtown",
+    "state": "Newstate",
+    "zip": "33445"
+  },
+  "accounts": [
+    {
+      "accountId": "5001",
+      "accountType": "Checking",
+      "balance": 5500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "5002",
+      "accountType": "Savings",
+      "balance": 7000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T5001",
+      "date": "2023-10-09",
+      "amount": -400,
+      "description": "Travel",
+      "accountId": "5001"
+    },
+    {
+      "transactionId": "T5002",
+      "date": "2023-10-10",
+      "amount": 4500,
+      "description": "Investment",
+      "accountId": "5001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2b9b1712ef204800c9cd"
+  },
+  "userId": "6",
+  "name": "Diana Evans",
+  "email": "diana.evans@example.com",
+  "phone": "+1234567895",
+  "address": {
+    "street": "303 Birch St",
+    "city": "Oldtown",
+    "state": "Oldstate",
+    "zip": "55667"
+  },
+  "accounts": [
+    {
+      "accountId": "6001",
+      "accountType": "Checking",
+      "balance": 6500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "6002",
+      "accountType": "Savings",
+      "balance": 8000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T6001",
+      "date": "2023-10-11",
+      "amount": -500,
+      "description": "Furniture",
+      "accountId": "6001"
+    },
+    {
+      "transactionId": "T6002",
+      "date": "2023-10-12",
+      "amount": 5500,
+      "description": "Project Payment",
+      "accountId": "6001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2ba11712ef204800c9cf"
+  },
+  "userId": "7",
+  "name": "Ethan Foster",
+  "email": "ethan.foster@example.com",
+  "phone": "+1234567896",
+  "address": {
+    "street": "404 Cedar St",
+    "city": "Smalltown",
+    "state": "Smallstate",
+    "zip": "77889"
+  },
+  "accounts": [
+    {
+      "accountId": "7001",
+      "accountType": "Checking",
+      "balance": 7500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "7002",
+      "accountType": "Savings",
+      "balance": 9000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T7001",
+      "date": "2023-10-13",
+      "amount": -600,
+      "description": "Home Improvement",
+      "accountId": "7001"
+    },
+    {
+      "transactionId": "T7002",
+      "date": "2023-10-14",
+      "amount": 6500,
+      "description": "Contract Work",
+      "accountId": "7001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2bab1712ef204800c9d1"
+  },
+  "userId": "8",
+  "name": "Fiona Green",
+  "email": "fiona.green@example.com",
+  "phone": "+1234567897",
+  "address": {
+    "street": "505 Spruce St",
+    "city": "Bigcity",
+    "state": "Bigstate",
+    "zip": "99000"
+  },
+  "accounts": [
+    {
+      "accountId": "8001",
+      "accountType": "Checking",
+      "balance": 8500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "8002",
+      "accountType": "Savings",
+      "balance": 10000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T8001",
+      "date": "2023-10-15",
+      "amount": -700,
+      "description": "Medical Bills",
+      "accountId": "8001"
+    },
+    {
+      "transactionId": "T8002",
+      "date": "2023-10-16",
+      "amount": 7500,
+      "description": "Consulting Fee",
+      "accountId": "8001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2bb21712ef204800c9d3"
+  },
+  "userId": "9",
+  "name": "George Harris",
+  "email": "george.harris@example.com",
+  "phone": "+1234567898",
+  "address": {
+    "street": "606 Willow St",
+    "city": "Middletown",
+    "state": "Middlestate",
+    "zip": "11122"
+  },
+  "accounts": [
+    {
+      "accountId": "9001",
+      "accountType": "Checking",
+      "balance": 9500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "9002",
+      "accountType": "Savings",
+      "balance": 11000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T9001",
+      "date": "2023-10-17",
+      "amount": -800,
+      "description": "Car Repair",
+      "accountId": "9001"
+    },
+    {
+      "transactionId": "T9002",
+      "date": "2023-10-18",
+      "amount": 8500,
+      "description": "Freelance Project",
+      "accountId": "9001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673d2bb91712ef204800c9d5"
+  },
+  "userId": "10",
+  "name": "Hannah King",
+  "email": "hannah.king@example.com",
+  "phone": "+1234567899",
+  "address": {
+    "street": "707 Ash St",
+    "city": "Largetown",
+    "state": "Largestate",
+    "zip": "33344"
+  },
+  "accounts": [
+    {
+      "accountId": "10001",
+      "accountType": "Checking",
+      "balance": 10500,
+      "currency": "USD"
+    },
+    {
+      "accountId": "10002",
+      "accountType": "Savings",
+      "balance": 12000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T10001",
+      "date": "2023-10-19",
+      "amount": -900,
+      "description": "Vacation",
+      "accountId": "10001"
+    },
+    {
+      "transactionId": "T10002",
+      "date": "2023-10-20",
+      "amount": 9500,
+      "description": "Business Income",
+      "accountId": "10001"
+    }
+  ]
+}]
