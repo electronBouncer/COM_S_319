@@ -7,10 +7,17 @@ const app = express();
 app.use(express.json());
 app.use(bodyParser.json());
 
+const cors = require('cors');
+app.use(cors({origin: 'http://localhost:5000'})); // Allow all origins (you can restrict it if needed)
+
+
+// Serve static files from the 'public' directory
+app.use(express.static('frontend/public'));
+
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Cyclone2025!',
+    password: 'MSskunk1!',   //'Cyclone2025!',
     database: 'banking_app'
 });
 
